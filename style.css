@@ -172,7 +172,7 @@ footer .icon{
    justify-content: space-between;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
    .nav{
       max-width: 600px;
       justify-content: center;
@@ -188,10 +188,10 @@ footer .icon{
       flex-direction: column-reverse;
    }
 
-   .container .hero_name{
-      width: 400px;
+   .container .hero_name p{
+      max-width: 350px;
+      background-color: #142850;
    }
-
    .container .hero .hero_img{
       width: 200px;
       height: 200px;
