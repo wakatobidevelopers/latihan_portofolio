@@ -188,6 +188,10 @@ footer .icon{
       flex-direction: column-reverse;
    }
 
+   .container .hero_name{
+      width: 400px;
+   }
+
    .container .hero .hero_img{
       width: 200px;
       height: 200px;
